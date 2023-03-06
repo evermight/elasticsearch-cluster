@@ -3,7 +3,7 @@ These are the configuration files used for our tutorial on Elastic Clusters:
 https://www.youtube.com/playlist?list=PLPatHYWw1RVv7_AamUYTZMZ3iN-T7QBmY
 
 
-If you want to use elasticsearch self signed certificates for the xpath.security.http.ssl, and you want kibana to connect to the cluster, you have two options:
+If you want to use elasticsearch self signed certificates for the `xpath.security.http.ssl`, and you want kibana to connect to the cluster, you have two options:
 
 option 1: add this line to your kibana.yml file
 ```
