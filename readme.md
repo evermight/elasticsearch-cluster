@@ -13,7 +13,7 @@ elasticsearch.ssl.certificateAuthorities: [ "/etc/kibana/certs/http_ca.crt" ]
 
 Where the http_ca.crt is a copy of /etc/elasticsearch/certs/http_ca.crt.from node 1
 
-## Option2: add these two lines to your kibana.yml file
+## Option 2: add these two lines to your kibana.yml file
 ```
 elasticsearch.ssl.keystore.path: [ "/etc/kibana/certs/http.p12" ]
 elasticsearch.ssl.truststore.path: [ "/etc/kibana/certs/http.p12" ]
